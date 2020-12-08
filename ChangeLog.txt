@@ -1,0 +1,23 @@
+========================
+   Spotify Ad Remover
+========================
+Current Version: 1.2.1
+
+
+To Do List:
+========================
+	- add mute/unmute button
+	- detect if spotify is Paused! if so, do not mute!
+	- possible to mute only spotify?? or just set spotify volume to 1%?
+	- issue with background hidden window getting detected, "chrome legacy window", needs restarting to bypass
+
+
+
+
+Version History:
+========================
+Version:1.2.1
+	- Fixed issue with spotify changing the title to be undetectable
+
+Version:1.1.1
+	- Setup tool
