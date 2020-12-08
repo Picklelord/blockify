@@ -1,11 +1,12 @@
 ========================
    Spotify Ad Remover
 ========================
-Current Version: 1.2.1
+Current Version: 2020.1.2.2
 
 
 To Do List:
 ========================
+	- Try to skip add instead of just mute!
 	- add mute/unmute button
 	- detect if spotify is Paused! if so, do not mute!
 	- possible to mute only spotify?? or just set spotify volume to 1%?
@@ -16,6 +17,10 @@ To Do List:
 
 Version History:
 ========================
+Version:2020.1.2.2
+	- Fixed issue with Mute crashing the mini blockify
+	- Fixed issue with the icon not showing up
+
 Version:1.2.1
 	- Fixed issue with spotify changing the title to be undetectable
 
