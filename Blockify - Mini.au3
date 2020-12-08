@@ -1,13 +1,17 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=headphones.ico;download.jpg;SpotPlayerControl.ico;
+#AutoIt3Wrapper_Icon=headphones.ico
+#AutoIt3Wrapper_Res_Description=Spotify Controller that allows the user to control spotify without jumping to it.
+#AutoIt3Wrapper_Res_Fileversion=2020.1.2.2
+#AutoIt3Wrapper_Res_ProductName=Blockify
+#AutoIt3Wrapper_Res_CompanyName=Pickled Industries Ltd
+#AutoIt3Wrapper_Res_SaveSource=y
+#AutoIt3Wrapper_Res_Icon_Add=headphones.ico
 #AutoIt3Wrapper_Res_Icon_Add=play.ico
 #AutoIt3Wrapper_Res_Icon_Add=pause.ico
 #AutoIt3Wrapper_Res_Icon_Add=previous.ico
 #AutoIt3Wrapper_Res_Icon_Add=next.ico
 #AutoIt3Wrapper_Res_Icon_Add=unmute.ico
 #AutoIt3Wrapper_Res_Icon_Add=mute.ico
-#AutoIt3Wrapper_Res_Description=Spotify Controller that allows the user to control spotify without jumping to it.
-#AutoIt3Wrapper_Res_Fileversion=1.0.0.0
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
 #include <Process.au3>
@@ -49,8 +53,8 @@ SpotControlGui()
 
 Func SpotControlGui()
     ; Create a GUI with various controls.
-    Local $hGUI = GUICreate("Blockify Mini", 210, 80, -1, -1, $WS_EX_APPWINDOW);, $WS_EX_TOPMOST)
-	$CrntSongLabel = GUICtrlCreateLabel("", 2, 5, 200, 21)
+    Local $hGUI = GUICreate("Blockify Mini", 310, 80, -1, -1, $WS_EX_APPWINDOW);, $WS_EX_TOPMOST)
+	$CrntSongLabel = GUICtrlCreateLabel("", 2, 5, 300, 21)
     Local $idPrevious = GUICtrlCreateButton("|<<", 5,26, 24, 24, $BS_ICON)
     Local $idPausePlay = GUICtrlCreateButton("> ||", 40, 26, 24, 24, $BS_ICON)
     Local $idNext = GUICtrlCreateButton(">>|", 75, 26, 24, 24, $BS_ICON)
@@ -75,6 +79,7 @@ Func SpotControlGui()
 
 
     ; Loop until the user exits.
+	$mute = False
 	While 1
 	  Switch GUIGetMsg()
 		Case $GUI_EVENT_CLOSE

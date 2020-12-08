@@ -1,5 +1,12 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=headphones.ico;download.jpg;SpotPlayerControl.ico
+#AutoIt3Wrapper_Icon=headphones.ico
+#AutoIt3Wrapper_Res_Description=Spotify Controller that allows the user to control spotify without jumping to it.
+#AutoIt3Wrapper_Res_Fileversion=2020.1.2.2
+#AutoIt3Wrapper_Res_ProductName=Blockify
+#AutoIt3Wrapper_Res_ProductVersion=2020.1.2.2
+#AutoIt3Wrapper_Res_CompanyName=Pickled Industries Ltd
+#AutoIt3Wrapper_Res_SaveSource=y
+#AutoIt3Wrapper_Res_Icon_Add=headphones.ico
 #AutoIt3Wrapper_Res_Icon_Add=play.ico
 #AutoIt3Wrapper_Res_Icon_Add=pause.ico
 #AutoIt3Wrapper_Res_Icon_Add=previous.ico
@@ -7,8 +14,6 @@
 #AutoIt3Wrapper_Res_Icon_Add=unmute.ico
 #AutoIt3Wrapper_Res_Icon_Add=mute.ico
 #AutoIt3Wrapper_Res_Icon_Add=exit.ico
-#AutoIt3Wrapper_Res_Description=Spotify Controller that allows the user to control spotify without jumping to it.
-#AutoIt3Wrapper_Res_Fileversion=1.0.0.0
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
 #include <Process.au3>
