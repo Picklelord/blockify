@@ -75,7 +75,7 @@ Func SpotControlGui()
 	$title = ProcessGetWindow(ProcessList("Spotify.exe")[1][1]) ; check what title is
     $thatNumber = WinGetHandle($title)
     $prevTitle = $title ; check what title is  Chrome_WidgetWin_0
-   controlSetText($hGUI, $prevTitle, $CrntSongLabel, $title)
+    controlSetText($hGUI, $prevTitle, $CrntSongLabel, $title)
 
 
 	$mute = False
